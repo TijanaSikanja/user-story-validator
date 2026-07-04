@@ -1,12 +1,12 @@
 import json
 import re
 from langgraph.graph import StateGraph, END
-from langchain_google_genai import ChatGoogleGenerativeAI
+from langchain_groq import ChatGroq
 from langchain_core.messages import HumanMessage
 from models import AgentState
 from prompts import INVEST_ANALYSIS_PROMPT
 
-llm = ChatGoogleGenerativeAI(model="gemini-1.5-flash", temperature=0.1)
+llm = ChatGroq(model="llama-3.1-8b-instant", temperature=0.1)
 
 # ── ČVOR 1: parse_input ──────────────────────────────────────────
 def parse_input(state: AgentState) -> AgentState:
