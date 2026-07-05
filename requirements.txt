@@ -1,5 +1,4 @@
 langgraph
 langchain
-langchain-anthropic
 langchain-groq
 python-dotenv
