@@ -6,6 +6,11 @@ from langchain_core.messages import HumanMessage
 from models import AgentState
 from prompts import INVEST_ANALYSIS_PROMPT
 
+from dotenv import load_dotenv
+load_dotenv()
+
+
+
 llm = ChatGroq(model="llama-3.1-8b-instant", temperature=0.1)
 
 # ── ČVOR 1: parse_input ──────────────────────────────────────────

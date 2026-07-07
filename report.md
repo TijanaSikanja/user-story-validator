@@ -9,16 +9,16 @@
 
 | Kriterijum | Ocena | Obrazlozenje |
 |---|---|---|
-| Independent | OK 8/10 | User story je relativno samostalan, jer korisnik može da se prijavi na sistem koristeci email i lozinku. |
-| Negotiable | UPOZORENJE 6/10 | User story nije previše pregovarljiv, jer korisnik mora da se prijavi koristeci email i lozinku. |
-| Valuable | OK 9/10 | User story ima visoku vrednost, jer korisnik može da pristupi svom nalogu i sacuvanim podacima. |
-| Estimable | OK 8/10 | User story je relativno ocjenjiv, jer se vjerovatno koristi postojeći sistem za prijavu. |
-| Small | OK 7/10 | User story nije previše mala, jer se vjerovatno koriste postojeće funkcionalnosti. |
-| Testable | OK 9/10 | User story je relativno testabilan, jer se vjerovatno koriste postojeće funkcionalnosti za prijavu. |
+| Independent | OK 8/10 | User story je relativno samostalan, ali se ne može izvršiti potpuno bez veze sa ostalim user storijama. |
+| Negotiable | UPOZORENJE 6/10 | User story nije toliko fleksibilan, jer korisnik mora da unese email i lozinku kako bi se prijavio. |
+| Valuable | OK 9/10 | User story je vrlo koristan, jer omogućava korisniku da pristupi svom nalogu i sacuvanim podacima. |
+| Estimable | OK 8/10 | User story je relativno jednostavan, ali može da zahteva neke dodatne radnje, kao što je validacija emaila i lozinke. |
+| Small | OK 7/10 | User story nije toliko mali, jer može da zahteva neke dodatne radnje, kao što je implementacija validacije emaila i lozinke. |
+| Testable | OK 9/10 | User story je vrlo testabilan, jer se može proveriti da li korisnik može da se prijavi koristeci email i lozinku. |
 
 **Preporuke za poboljsanje:**
-- Pregovarati o detaljima prijave, kao što je zahtev za potvrdnu poruku.
-- Izvršiti testove za prijavu da bi se obezbedila njena testabilnost.
+- Pregledati validaciju emaila i lozinke kako bi se obezbedilo da korisnik može da se prijavi bez problema.
+- Pregledati ostale user storije kako bi se obezbedilo da korisnik može da se registruje i prijavi bez problema.
 
 ---
 
@@ -27,22 +27,23 @@
 
 **Format ispravan:** Ne
 
-**Ukupni skor: 4.0/10**
+**Ukupni skor: 4.7/10**
 
 | Kriterijum | Ocena | Obrazlozenje |
 |---|---|---|
-| Independent | UPOZORENJE 6/10 | User story nije dovoljno detaljan da bi se mogao razumeo kao samostalan zadatak. |
-| Negotiable | OK 8/10 | User story je dovoljno širok da bi se moglo pregovarati o detaljima. |
-| Valuable | UPOZORENJE 4/10 | User story nije dovoljno detaljan da bi se mogao razumeo njegovu vrednost. |
-| Estimable | LOSE 3/10 | User story nije dovoljno detaljan da bi se mogao ocjeniti njegov vremenski zahtjev. |
-| Small | LOSE 2/10 | User story nije dovoljno detaljan da bi se mogao razumeo njegovu veličinu. |
-| Testable | LOSE 1/10 | User story nije dovoljno detaljan da bi se mogao razumeo njegovu testabilnost. |
+| Independent | LOSE 2/10 | User story nije samostalan jer zavisi od drugih user storyja koji nisu definisani. |
+| Negotiable | OK 8/10 | User story je pregovarljiv jer može se menjati tokom razvoja. |
+| Valuable | UPOZORENJE 6/10 | User story nije dovoljno vredan jer nije definisan njegov značaj za korisnike. |
+| Estimable | UPOZORENJE 4/10 | User story nije dovoljno ocjenjiv jer nije predvidljivo vreme za njegovu izradu. |
+| Small | LOSE 3/10 | User story nije dovoljno mali jer sadrži više komponenti koje treba da se razviju. |
+| Testable | UPOZORENJE 5/10 | User story nije dovoljno testabilan jer nije definisan način njegove testiranja. |
 
 **Preporuke za poboljsanje:**
-- Dodajte detaljnije informacije o sistem koji treba da radi brze i bude bolji.
-- Definisite specifične kriterijume za ocjenjivanje vrednosti sistema.
-- Definisite specifične kriterijume za ocjenjivanje vremenskog zahtjeva sistema.
-- Definisite specifične kriterijume za ocjenjivanje testabilnosti sistema.
+- Definisanje samostalnih user storyja koji ne zavise od drugih.
+- Dodavanje detalja o značaju user storyja za korisnike.
+- Predviđanje vremena za izradu user storyja i njegovo ocenjivanje.
+- Smanjenje veličine user storyja na jednostavnije komponente.
+- Definisanje načina testiranja user storyja.
 
 ---
 
@@ -51,25 +52,24 @@
 
 **Format ispravan:** Da
 
-**Ukupni skor: 6.5/10**
+**Ukupni skor: 0.0/10**
 
 | Kriterijum | Ocena | Obrazlozenje |
 |---|---|---|
-| Independent | UPOZORENJE 6/10 | User story nije potpuno nezavisan, jer zahteva da se vidi sve korisnike u sistemu, što može da bude problem ako sistem ima velik broj korisnika. |
-| Negotiable | OK 8/10 | User story je delimično pregovarljiv, jer administrator može da pregovara o detaljima upravljanja nalozima, ali ne i o osnovnim funkcionalnostima. |
-| Valuable | OK 9/10 | User story je vrlo vredan, jer omogućava administratoru da upravlja nalozima, brise, edituje, suspenduje, resetuje lozinke i generiše izveštaje za sve korisnike u sistemu. |
-| Estimable | OK 7/10 | User story nije potpuno estimabilan, jer zahteva različite radnje (upravljanje nalozima, brisanje, editovanje, suspendovanje, resetovanje lozinke, generisanje izveštaja) koje su teške za procenu. |
-| Small | UPOZORENJE 4/10 | User story nije potpuno mali, jer zahteva kompleksne radnje koje mogu da zauzmu dugo vreme za implementaciju. |
-| Testable | UPOZORENJE 5/10 | User story nije potpuno testabilan, jer zahteva različite radnje koje su teške za testiranje, posebno generisanje izveštaja koji može da sadrži kompleksne podatke. |
+| Independent | LOSE 0/10 | Greska pri analizi |
+| Negotiable | LOSE 0/10 | Greska pri analizi |
+| Valuable | LOSE 0/10 | Greska pri analizi |
+| Estimable | LOSE 0/10 | Greska pri analizi |
+| Small | LOSE 0/10 | Greska pri analizi |
+| Testable | LOSE 0/10 | Greska pri analizi |
 
 **Preporuke za poboljsanje:**
-- Podelite user story na manje, jednostavnije taskove koji će biti lakše za implementaciju i testiranje.
-- Dodajte više detalja o funkcionalnostima koje administrator treba da ima, kako bi se smanjila nepoznanica i lakše bilo da se implementacija i testiranje provedu.
+- Proveriti format user story i pokusati ponovo
 
 ---
 
 ## Rezime
 - Ukupno analiziranih user stories: **3**
-- Prosecni skor: **6.1/10**
+- Prosecni skor: **4.2/10**
 - Spremne za sprint (skor >= 7): **1**
 - Potrebna revizija: **2**
