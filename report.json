@@ -1,89 +1,35 @@
 {
   "summary": {
-    "total_stories": 3,
-    "average_score": 4.2,
-    "ready_for_sprint": 1,
-    "need_revision": 2
+    "total_stories": 1,
+    "average_score": 4.7,
+    "ready_for_sprint": 0,
+    "need_revision": 1
   },
   "details": [
     {
       "story_id": "US-001",
-      "original_text": "Kao registrovani korisnik, zelim da se prijavim na sistem koristeci email i lozinku, kako bih mogao da pristupim svom nalogu i sacuvanim podacima.",
-      "format_valid": true,
-      "invest_scores": {
-        "Independent": 8,
-        "Negotiable": 6,
-        "Valuable": 9,
-        "Estimable": 8,
-        "Small": 7,
-        "Testable": 9
-      },
-      "invest_explanations": {
-        "Independent": "User story je relativno samostalan, ali se ne može izvršiti potpuno bez veze sa ostalim user storijama.",
-        "Negotiable": "User story nije toliko fleksibilan, jer korisnik mora da unese email i lozinku kako bi se prijavio.",
-        "Valuable": "User story je vrlo koristan, jer omogućava korisniku da pristupi svom nalogu i sacuvanim podacima.",
-        "Estimable": "User story je relativno jednostavan, ali može da zahteva neke dodatne radnje, kao što je validacija emaila i lozinke.",
-        "Small": "User story nije toliko mali, jer može da zahteva neke dodatne radnje, kao što je implementacija validacije emaila i lozinke.",
-        "Testable": "User story je vrlo testabilan, jer se može proveriti da li korisnik može da se prijavi koristeci email i lozinku."
-      },
-      "total_score": 7.8,
-      "recommendations": [
-        "Pregledati validaciju emaila i lozinke kako bi se obezbedilo da korisnik može da se prijavi bez problema.",
-        "Pregledati ostale user storije kako bi se obezbedilo da korisnik može da se registruje i prijavi bez problema."
-      ]
-    },
-    {
-      "story_id": "US-002",
-      "original_text": "Sistem treba da radi brze i bude bolji.",
+      "original_text": "Napisi mi najbolje user story-je za aplkikaciju banke.",
       "format_valid": false,
       "invest_scores": {
-        "Independent": 2,
+        "Independent": 4,
         "Negotiable": 8,
         "Valuable": 6,
-        "Estimable": 4,
-        "Small": 3,
+        "Estimable": 3,
+        "Small": 2,
         "Testable": 5
       },
       "invest_explanations": {
-        "Independent": "User story nije samostalan jer zavisi od drugih user storyja koji nisu definisani.",
-        "Negotiable": "User story je pregovarljiv jer može se menjati tokom razvoja.",
-        "Valuable": "User story nije dovoljno vredan jer nije definisan njegov značaj za korisnike.",
-        "Estimable": "User story nije dovoljno ocjenjiv jer nije predvidljivo vreme za njegovu izradu.",
-        "Small": "User story nije dovoljno mali jer sadrži više komponenti koje treba da se razviju.",
-        "Testable": "User story nije dovoljno testabilan jer nije definisan način njegove testiranja."
+        "Independent": "User story nije dovoljno samostalan, jer zahteva da se napise nova user story za aplikaciju banke.",
+        "Negotiable": "User story je dovoljno pregovarljiv, jer omogućava da se detalji specifikacije razgovaraju i dogovore sa korisnikom.",
+        "Valuable": "User story nije dovoljno vredan, jer nije jasno šta će se postići sa ovom user story-om.",
+        "Estimable": "User story nije dovoljno ocjenjiv, jer nije jasno koliko vremena i resursa će biti potrebno da se napravi.",
+        "Small": "User story nije dovoljno mala, jer zahteva da se napise nova user story za aplikaciju banke.",
+        "Testable": "User story nije dovoljno testabilan, jer nije jasno kako će se njegova implementacija testirati."
       },
       "total_score": 4.7,
       "recommendations": [
-        "Definisanje samostalnih user storyja koji ne zavise od drugih.",
-        "Dodavanje detalja o značaju user storyja za korisnike.",
-        "Predviđanje vremena za izradu user storyja i njegovo ocenjivanje.",
-        "Smanjenje veličine user storyja na jednostavnije komponente.",
-        "Definisanje načina testiranja user storyja."
-      ]
-    },
-    {
-      "story_id": "US-003",
-      "original_text": "Kao administrator, zelim da vidim sve korisnike, kako bih mogao da upravljam nalozima, ali i da brisem, edituje, suspenduje, resetuje lozinke i generisem izvestaje za sve korisnike u sistemu.",
-      "format_valid": true,
-      "invest_scores": {
-        "Independent": 0,
-        "Negotiable": 0,
-        "Valuable": 0,
-        "Estimable": 0,
-        "Small": 0,
-        "Testable": 0
-      },
-      "invest_explanations": {
-        "Independent": "Greska pri analizi",
-        "Negotiable": "Greska pri analizi",
-        "Valuable": "Greska pri analizi",
-        "Estimable": "Greska pri analizi",
-        "Small": "Greska pri analizi",
-        "Testable": "Greska pri analizi"
-      },
-      "total_score": 0.0,
-      "recommendations": [
-        "Proveriti format user story i pokusati ponovo"
+        "Pogovorite sa korisnikom da precizno definisete što želite da se napravi.",
+        "Podelite user story na manje, testabilnije delove."
       ]
     }
   ]
