@@ -1,14 +1,40 @@
 {
   "summary": {
-    "total_stories": 1,
-    "average_score": 4.7,
-    "ready_for_sprint": 0,
-    "need_revision": 1
+    "total_stories": 3,
+    "average_score": 6.1,
+    "ready_for_sprint": 1,
+    "need_revision": 2
   },
   "details": [
     {
       "story_id": "US-001",
-      "original_text": "Napisi mi najbolje user story-je za aplkikaciju banke.",
+      "original_text": "Kao registrovani korisnik, zelim da se prijavim na sistem koristeci email i lozinku, kako bih mogao da pristupim svom nalogu i sacuvanim podacima.",
+      "format_valid": true,
+      "invest_scores": {
+        "Independent": 8,
+        "Negotiable": 6,
+        "Valuable": 9,
+        "Estimable": 8,
+        "Small": 7,
+        "Testable": 9
+      },
+      "invest_explanations": {
+        "Independent": "User story je relativno samostalan, jer korisnik može da se prijavi na sistem koristeci email i lozinku.",
+        "Negotiable": "User story nije toliko pregovorno, jer korisnik mora da se prijavi koristeci email i lozinku.",
+        "Valuable": "User story ima veliku vrednost, jer korisnik može da pristupi svom nalogu i sacuvanim podacima.",
+        "Estimable": "User story je relativno ocjenjivljiv, jer se može proceniti vreme potrebno za implementaciju funkcionalnosti za prijavu korisnika.",
+        "Small": "User story nije toliko mala, jer se radi o funkcionalnosti za prijavu korisnika, koja može da bude kompleksna.",
+        "Testable": "User story je veoma testabilan, jer se može testirati funkcionalnost za prijavu korisnika koristeći jednostavne testove."
+      },
+      "total_score": 7.8,
+      "recommendations": [
+        "Pregovoriti o detaljima prijave, kao što je zahtev za potvrdnu poruku ili zahtev za reset lozinke.",
+        "Implementirati funkcionalnost za prijavu korisnika koristeći postojeći kod."
+      ]
+    },
+    {
+      "story_id": "US-002",
+      "original_text": "Sistem treba da radi brze i bude bolji.",
       "format_valid": false,
       "invest_scores": {
         "Independent": 4,
@@ -16,20 +42,48 @@
         "Valuable": 6,
         "Estimable": 3,
         "Small": 2,
+        "Testable": 1
+      },
+      "invest_explanations": {
+        "Independent": "User story nije dovoljno detaljan da bi se mogao razumeo bez dodatnih informacija.",
+        "Negotiable": "User story je dovoljno širok da bi se moglo pregovarati o detaljima.",
+        "Valuable": "User story nije dovoljno detaljan da bi se mogao razumeo njegovu vrednost.",
+        "Estimable": "User story nije dovoljno detaljan da bi se mogla proceniti njegova težina.",
+        "Small": "User story je previše širok da bi se mogao smatrati malim.",
+        "Testable": "User story nije dovoljno detaljan da bi se moglo razumeo kako će se testirati."
+      },
+      "total_score": 4.0,
+      "recommendations": [
+        "Detaljno opisati user story da bi se mogao razumeo njegov sadržaj.",
+        "Šireći user story da bi se omogućilo više pregovora.",
+        "Detaljno opisati kako će se testirati user story.",
+        "Detaljno opisati njegovu vrednost i težinu."
+      ]
+    },
+    {
+      "story_id": "US-003",
+      "original_text": "Kao administrator, zelim da vidim sve korisnike, kako bih mogao da upravljam nalozima, ali i da brisem, edituje, suspenduje, resetuje lozinke i generisem izvestaje za sve korisnike u sistemu.",
+      "format_valid": true,
+      "invest_scores": {
+        "Independent": 6,
+        "Negotiable": 8,
+        "Valuable": 9,
+        "Estimable": 7,
+        "Small": 4,
         "Testable": 5
       },
       "invest_explanations": {
-        "Independent": "User story nije dovoljno samostalan, jer zahteva da se napise nova user story za aplikaciju banke.",
-        "Negotiable": "User story je dovoljno pregovarljiv, jer omogućava da se detalji specifikacije razgovaraju i dogovore sa korisnikom.",
-        "Valuable": "User story nije dovoljno vredan, jer nije jasno šta će se postići sa ovom user story-om.",
-        "Estimable": "User story nije dovoljno ocjenjiv, jer nije jasno koliko vremena i resursa će biti potrebno da se napravi.",
-        "Small": "User story nije dovoljno mala, jer zahteva da se napise nova user story za aplikaciju banke.",
-        "Testable": "User story nije dovoljno testabilan, jer nije jasno kako će se njegova implementacija testirati."
+        "Independent": "User story nije potpuno nezavisan, jer zahteva da se vidi sve korisnike u sistemu, što može biti problem ako sistem ima velik broj korisnika.",
+        "Negotiable": "User story je delimično pregovarljiv, jer administrator može pregovarati o detaljima upravljanja nalozima, ali ne i o osnovnim funkcionalnostima.",
+        "Valuable": "User story je vrlo vredan, jer omogućava administratoru da upravlja nalozima, brise, edituje, suspenduje, resetuje lozinke i generiše izveštaje za sve korisnike u sistemu.",
+        "Estimable": "User story nije potpuno estimabilan, jer zahteva različite radnje koje su teške za procenu vremena.",
+        "Small": "User story nije potpuno mali, jer zahteva kompleksne radnje kao što su upravljanje nalozima, brisanje, editovanje, suspendovanje, resetovanje lozinke i generisanje izveštaja.",
+        "Testable": "User story nije potpuno testabilan, jer zahteva kompleksne radnje koje su teške za testiranje."
       },
-      "total_score": 4.7,
+      "total_score": 6.5,
       "recommendations": [
-        "Pogovorite sa korisnikom da precizno definisete što želite da se napravi.",
-        "Podelite user story na manje, testabilnije delove."
+        "Podelite user story na manje, jednostavnije taskove koji su lakše za implementiranje i testiranje.",
+        "Dodajte više detalja o funkcionalnostima koje se očekuju od administratora, kako bi se smanjila neizvesnost i lakše bilo moguće proceniti vreme za implementaciju."
       ]
     }
   ]
